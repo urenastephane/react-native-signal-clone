@@ -14,7 +14,7 @@ const HomeScreen = ({ navigation }) => {
       navigation.replace("Login");
     });
   };
-
+  /*
   useEffect(() => {
     const unsubscribe = db.collections("chat").onSnapShot((snapShot) => {
       setChats(snapShot);
@@ -23,7 +23,6 @@ const HomeScreen = ({ navigation }) => {
       cleanup;
     };
   }, []);
-
   useLayoutEffect(() => {
     navigation.setOptions({
       title: "Signal",
@@ -59,6 +58,7 @@ const HomeScreen = ({ navigation }) => {
       ),
     });
   }, [navigation]);
+*/
 
   return (
     <SafeAreaView>
